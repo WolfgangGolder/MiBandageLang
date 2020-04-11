@@ -6,14 +6,14 @@
 
     <string name="drawer_nav_home">Bandages</string>
     <string name="drawer_nav_notification">Benachrichtigungsanzeige</string>
-    <string name="drawer_nav_touch">Beobachtung des Berührungsssensors</string>
+    <string name="drawer_nav_touch">Beobachtung des Berührungssensors</string>
     <string name="drawer_nav_step">Schrittzähler</string>
     <string name="drawer_nav_sleep">Schlaf</string>
     <string name="drawer_nav_pulse">Herzfrequenz</string>
     <string name="drawer_nav_time">Wecker &amp; Uhr</string>
     <string name="drawer_nav_reminder">Ereigniserinnerung</string>
     <string name="drawer_nav_weather">Wetter</string>
-    <string name="drawer_nav_watch_face">Watch face</string>
+    <string name="drawer_nav_watch_face">Watchface</string>
     <string name="drawer_nav_firmware">Firmware</string>
     <string name="drawer_nav_alarm">Bei Verlust</string>
     <string name="drawer_nav_disconnected_agent">Agent</string>
@@ -31,7 +31,7 @@
     <string name="shortcut_time_alarm">Wecker</string>
     <string name="shortcut_reminder">Ereigniserinnerung</string>
 
-    <string name="setting_name">Einstellungen</string>
+    <string name="setting_name">Einstellung</string>
     <string name="settings_name">Einstellungen</string>
     <string name="app_chooser">App-Auswahl</string>
     <string name="info_name">Informationen</string>
@@ -59,10 +59,10 @@
     <string name="mi_band_mac_address_invalid">Ungültige MAC-Adresse</string>
 
     <string name="mi_band_state_title">%1$s Einstellungen</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="mi_band_state_connected">Band ist verbunden</string>
-    <string name="mi_band_state_disconnected">Band ist nicht verbunden</string>
+    <string name="mi_band_state_connected">Verbunden</string>
+    <string name="mi_band_state_disconnected">Nicht verbunden</string>
     <string name="mi_band_state_bonded">Gekoppeltes Gerät</string>
-    <string name="mi_band_state_not_bonded">Nicht Gekoppeltes Gerät</string>
+    <string name="mi_band_state_not_bonded">Nicht gekoppeltes Gerät</string>
 
     <!-- Mi Band setting -->
     <string name="mi_band_setting_title">%1$s Einstellungen</string>
@@ -73,12 +73,12 @@
     <string name="mi_band_setting_menu_call">Anruf</string>
     <string name="mi_band_setting_menu_menu">Menü</string>
 
-    <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Mi Fit, Amazfit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage benötigt die offizielle Mi Fit/Amazfit-App auf demselben Gerät. Vor der Verwendung der Mi Bandage-App muss das %1$s mit der Mi Fit/Amazfit-App verbunden sein. Wenn Sie Mi Fit/Amazfit verwenden wollen, wählen Sie dieses aus.</string>
+    <string name="mi_band_setting_auth_mi_fit">%1$s Zusammenarbeit</string> <!-- Mi Fit, Amazfit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage benötigt die offizielle Mi Fit/Amazfit App auf demselben Gerät. Vor der Verwendung der Mi Bandage App muss %1$s mit der Mi Fit/Amazfit App verbunden sein. Wenn Sie Mi Fit/Amazfit verwenden wollen, wählen Sie diese Option aus.</string>
     <string name="mi_band_setting_auth_standalone">Eigenständig</string>
     <string name="mi_band_setting_auth_standalone_hint">Mi Fit/Amazfit App wird nicht benötigt, damit Mi Bandage funktioniert. Nach der Kopplung, deinstallieren Sie die Mi Fit/Amazfit App oder entkoppeln Sie Ihr Gerät. Wenn die Zusammenarbeit mit Mi Fit/Amazfit wiederhergestellt werden soll, müssen Sie %1$s in der Mi Fit/Amazfit App erneut koppeln.</string>
     <string name="mi_band_setting_auth_key_title">Den Authentifizierung Schlüssel</string>
-    <string name="mi_band_setting_auth_key_hint">Für den eigenständigen Modus muss ein Authentifizierung Schlüssel bereitgestellt werden.</string>
+    <string name="mi_band_setting_auth_key_hint">Für den eigenständigen Modus muss ein Authentifizierungs Schlüssel bereitgestellt werden.</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
         <p>- %1$s in der offiziellen Mi Fit/Amazfit App entkoppeln</p>
         <p>- In der offiziellen Mi Fit/Amazfit App deinstallieren</p>
@@ -107,7 +107,7 @@
     <string name="mi_band_setting_standalone_setting">Einstellungen Eigenständiger Modus</string>
     <string name="mi_band_setting_time_24h">24-Stunden-Zeitformat</string>
     <string name="mi_band_setting_date">Datum auf dem Bildschirm anzeigen</string>
-    <string name="mi_band_setting_lock_screen">Band-Bildschirmsperre</string>
+    <string name="mi_band_setting_lock_screen">Band Bildschirmsperre</string>
     <string name="mi_band_setting_lock_screen_summary">Während das Band eingeschaltet ist, nach oben wischen, um den Bildschirm zu entsperren</string>
     <string name="mi_band_setting_lift_wrist">Für Informationen Handgelenk anheben</string>
     <string name="mi_band_setting_lift_wrist_sensitivity">Reaktionsgeschwindigkeit</string>
@@ -118,8 +118,8 @@
 
     <string name="mi_band_setting_discoverable">Sichtbar</string>
 
-    <string name="pref_text_title">Textembleme</string>
-    <string name="pref_text_conversion_summary">Einstellungen zu den Textemblemen des Mi Bands 2</string>
+    <string name="pref_text_title">Textanzeige</string>
+    <string name="pref_text_conversion_summary">Zeichenkonvertierung</string>
     <string name="pref_cat_text_conversion">%1$s Signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Buchstabenumwandlung</string>
     <string name="pref_text_conversion_summary_on">Nicht erkennbare Buchstabenumwandlung, ausschalten wenn das Band Ihre Sprache unterstützt oder Sie eine benutzerdefinierte Schrift Firmware installiert haben</string>
@@ -152,15 +152,15 @@
     <!-- Battery -->
     <string name="battery_details">Batterieverbrauch</string>
 
-    <string name="mi_band_battery_settings">Batterieeinstellungen</string>
+    <string name="mi_band_battery_settings">Batterie Einstellungen</string>
     <string name="mi_band_battery_remaining">Voraussichtliche Akkulaufzeit</string>
     <string name="mi_band_battery_notification">Benachrichtigung bei schwacher Batterie</string>
-    <string name="mi_band_battery_notification_level">Batteriestand Schwelle</string>
+    <string name="mi_band_battery_notification_level">Batteriestand Schwellenwert</string>
     <string name="mi_band_battery_notification_repeat_interval">Wiederholungsintervall</string>
-    <string name="mi_band_battery_notification_shade">Benachrichtigen Sie mich am Telefon</string>
+    <string name="mi_band_battery_notification_shade">Benachrichtigung am Telefon</string>
     <string name="mi_band_battery_notification_shade_ongoing">Persistente (laufende) Benachrichtigung</string>
     <string name="mi_band_battery_notification_shade_message">Niedriger Batteriestand %1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">Benachrichtigen Sie mich am Armband</string>
+    <string name="mi_band_battery_notification_mi_band">Benachrichtigung am %1$s</string>
     <string name="mi_band_battery_notification_mi_band_message">Batterie: %1$,d%%</string>
 
     <!-- PreferenceScreen -->
